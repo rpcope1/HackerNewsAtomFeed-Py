@@ -1,7 +1,7 @@
 __author__ = 'Robert P. Cope'
 __author_email__ = 'rpcope1@gmail.com'
 __app_name__ = 'Hacker News Atom Feed Generator'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 
 from setuptools import setup

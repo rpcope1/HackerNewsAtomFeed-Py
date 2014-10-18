@@ -24,8 +24,10 @@ or locally,
 The feed can be accessed at:
 
 ```
+    http://(hostname):(port)/
     http://(hostname):(port)/feed.xml
 ```
+
 
 in your favorite Atom news reader.
 
