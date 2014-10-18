@@ -39,6 +39,8 @@ HACKERNEWS_ITEM_URL_TEMPLATE = 'https://news.ycombinator.com/item?id={id}'
 
 
 def main(hostname='localhost', port=8000, refresh_min=15):
+    port = int(port)
+    refresh_min = int(refresh_min)
     #Set up to serve out of this directory.
     feed_logger.info('Initializing Hacker News Atom Feed Server')
     if not os.path.isdir(FEED_FULL_DIR):
